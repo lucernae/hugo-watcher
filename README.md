@@ -37,11 +37,10 @@ services:
       - scp_hugo_data:/src/content
       # config from host mounted volume
       - ./hugo_conf/config.yaml:/src/config.yaml
-      - ./hugo_conf/content_template:/src/content_template
 
 
 ```
-
+See https://github.com/kartoza/osgs for a full usage example.
 
 Tim Sutton 
 info@kartoza.com
