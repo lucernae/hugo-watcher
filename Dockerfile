@@ -5,4 +5,5 @@ ADD archetypes /src/archetypes
 ADD layouts /src/layouts
 ADD resources /src/resources
 ADD static /src/static
+ADD content_template /src/content_template
 ENTRYPOINT ["python3", "/hugo_watcher.py"]
