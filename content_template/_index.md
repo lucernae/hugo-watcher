@@ -15,12 +15,6 @@ serviceLinks:
     2-mapproxy:
       title: "MapProxy"
       link: "/mapproxy/demo/"
-    3-webodm:
-      title: "WebODM"
-      link: "https://geoservices.govt.lc:8000"
-    4-webodm-internal:
-      title: "WebODM (For Internal Computers)"
-      link: "https://24.92.151.131:8000" 
   data:
     1-qgis:
       title: "QGIS Server Capabilities Document"
