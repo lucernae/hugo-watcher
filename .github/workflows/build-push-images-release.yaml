@@ -65,7 +65,7 @@ jobs:
         with:
           images: ${{ secrets.DOCKERHUB_REPO }}/hugo-watcher
           tags: |
-            type=semver,pattern=\d.\d.\d
+            type=semver
             type=ref,event=branch
             type=ref,event=pr
       - name: Build and push
